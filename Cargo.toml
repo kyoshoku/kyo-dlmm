@@ -1,0 +1,21 @@
+[package]
+name = "kyo-dlmm"
+version = "0.1.0"
+description = "DAMM v2 Honorary Fee Position + 24h Distribution Crank"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "kyo_dlmm"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+solana-program = "~1.17.0"
