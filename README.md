@@ -1,4 +1,4 @@
-# KYO DLMM - DAMM v2 Honorary Fee Position + 24h Distribution Crank
+# DAMM v2 Honorary Fee Position + 24h Distribution Crank
 
 A standalone Anchor-compatible module for managing honorary DAMM v2 LP positions that accrue fees exclusively in the quote mint, with automated 24-hour distribution to investors based on their still-locked amounts from Streamflow.
 
